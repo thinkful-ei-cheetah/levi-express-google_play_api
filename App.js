@@ -53,6 +53,4 @@ app.get('/apps', (req, res) => {
     res.status(200).send(store);
 });
 
-app.listen(8000, () => {
-    console.log('Express server is listening on port 8000!');
-});
+module.exports = app;
